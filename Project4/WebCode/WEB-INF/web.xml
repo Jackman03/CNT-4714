@@ -1,0 +1,202 @@
+<web-app>
+
+    <display-name>
+        Project-4
+    </display-name>
+
+    <descrpition>
+        CNT4714 Project 4. 3 teir program
+    </descrpition>
+	
+	
+	<servlet>
+	
+	
+		<descrpition>
+		auth servlet
+		</descrpition>
+		
+		
+		<servlet-name>alpha</servlet-name>
+		<servlet-class>authServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>alpha</servlet-name>
+		<url-pattern>/authentication</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+	
+	
+		<descrpition>
+		client servlet
+		</descrpition>
+		
+		
+		<servlet-name>bravo</servlet-name>
+		<servlet-class>clientQueryServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>bravo</servlet-name>
+		<url-pattern>/clientServlet</url-pattern>
+	
+	</servlet-mapping>
+
+
+
+	<servlet>
+	
+	
+		<descrpition>
+		root servlet
+		</descrpition>
+		
+		
+		<servlet-name>charlie</servlet-name>
+		<servlet-class>rootQueryServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>charlie</servlet-name>
+		<url-pattern>/rootServlet</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+	
+	
+		<descrpition>
+		supplier servlet
+		</descrpition>
+		
+		
+		<servlet-name>delta</servlet-name>
+		<servlet-class>supplierEntryServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>delta</servlet-name>
+		<url-pattern>/supplierServlet</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	<servlet>
+	
+	
+		<descrpition>
+		part servlet
+		</descrpition>
+		
+		
+		<servlet-name>echo</servlet-name>
+		<servlet-class>partEntryServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>echo</servlet-name>
+		<url-pattern>/partServlet</url-pattern>
+	
+	</servlet-mapping>
+
+
+<servlet>
+	
+	
+		<descrpition>
+		job servlet
+		</descrpition>
+		
+		
+		<servlet-name>foxtrot</servlet-name>
+		<servlet-class>jobEntryServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>foxtrot</servlet-name>
+		<url-pattern>/jobServlet</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+	
+	
+		<descrpition>
+		shipment servlet
+		</descrpition>
+		
+		
+		<servlet-name>golf</servlet-name>
+		<servlet-class>shipmentEntryServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>golf</servlet-name>
+		<url-pattern>/shipmentServlet</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+	
+	
+		<descrpition>
+		accountant servlet
+		</descrpition>
+		
+		
+		<servlet-name>hotel</servlet-name>
+		<servlet-class>accountantServlet</servlet-class>
+	
+
+	</servlet>
+	
+	
+	<servlet-mapping>
+	
+		<servlet-name>hotel</servlet-name>
+		<url-pattern>/accountantServlet</url-pattern>
+	
+	</servlet-mapping>
+
+</web-app>
+
